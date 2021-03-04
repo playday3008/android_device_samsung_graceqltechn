@@ -1,7 +1,18 @@
 ro.chipname=MSM8996
 ro.arch=msm8996
+ro.boot.bootdevice=624000.ufshc
 ro.lcd_min_brightness=0
 ro.lcd_brightness=162
 ro.sf.lcd_density=560
 ro.hardware.keystore=msm8996
 persist.sys.usb.config=mtp,adb
+
+# Encryption
+ro.sec.fle.encryption=true
+security.mdpp=None
+security.mdpp.mass=skmm
+security.mdpp.result=None
+ro.security.mdpp.ver=2.0
+ro.security.mdpp.release=8
+ro.hardware.keystore=mdfpp
+ro.hardware.gatekeeper=mdfpp
