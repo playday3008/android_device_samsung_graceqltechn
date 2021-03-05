@@ -93,7 +93,6 @@ TW_INCLUDE_NTFS_3G := true
 TW_NO_EXFAT_FUSE := true
 TW_EXCLUDE_SUPERSU := true
 TW_INPUT_BLACKLIST := "hbtp_vm"
-TW_USE_MODEL_HARDWARE_ID_FOR_DEVICE_ID := true
 
 # Asian region languages
 TW_EXTRA_LANGUAGES := true
